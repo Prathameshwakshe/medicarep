@@ -1,0 +1,242 @@
+.container {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  h1, h2 {
+    text-align: center;
+  }
+  
+  input, button {
+    margin-left: 44%;
+
+  }
+  
+  #medicine-list {
+    margin-top: 20px;
+    margin-left: 44%;
+  }
+  
+  .medicine-item {
+    margin-bottom: 10px;
+    padding: 5px;
+    border: 1px solid #ccc;
+    margin-left: 44%;
+  }
+  
+  .medicine-item:hover {
+    background-color: #f0f0f0;
+  }
+  .nav {
+    height: 90px;
+    width: 100%;
+    display: flex;
+    justify-content: center; 
+    align-items: center; 
+    background-color: hsl(0, 0%, 100%);
+    position: absolute;
+    box-shadow: 2px 3px 10px hsla(0, 0%, 0%, 0.11);
+    position: sticky;
+  }
+  
+  .logo-img {
+    height: 125px;
+    width: 125px;
+    padding-bottom: 5px;
+  }
+  
+  .nav-link {
+    display: flex;
+    flex-direction: row;
+    margin-left: 500px; 
+    margin-right: auto; 
+    
+  }
+  
+  .link {
+    margin-left: 100px;
+    font-size: 23px;
+    align-items: center;
+    text-align: center;
+    position: relative;
+    cursor: pointer;
+    color: black;
+    text-decoration: none;
+    
+  }
+  .link:hover{
+    color: rgb(226, 144, 21);
+  }
+  #medicineList {
+    list-style-type: none;
+    padding: 0;
+    margin-left: 44%;
+    font-size: 15pxpx;
+
+}
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+.sidebar {
+  height: 1000px;
+  width: 250px;
+  top: 0;
+  left: 0;
+  background-color: #111;
+  padding-top: 20px;
+ 
+
+}
+
+.sidebar h2 {
+  color: white;
+  text-align: center;
+}
+
+.sidebar ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.sidebar ul li {
+  padding: 10px 0;
+  text-align: center;
+}
+
+.sidebar ul li a {
+  color: white;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.sidebar ul li a:hover {
+  color: #ffc107;
+}
+
+.content {
+    margin-left: 250px;
+    padding: 20px;
+}
+.today-sale{
+   height: 100px;
+   width: 215px;
+   background-color: hsla(0, 0%, 7%, 0.849);
+   display: flex;
+   text-align: center;
+   flex-direction: column;
+   border: 1px solid black;
+  border-radius: 22px;
+  box-shadow: 3px 3px 10px black;
+ 
+ 
+}
+.today-sale h4  {
+  color: white;
+}
+.today-sale h5  {
+  color: white;
+}
+.Total-sales{
+  height: 100px;
+  width: 215px;
+  background-color: hsla(0, 0%, 7%, 0.849);
+  display: flex;
+  text-align: center;
+  flex-direction: column;
+  margin-left: 5px;
+  border: 1px solid black;
+  border-radius: 22px;
+  box-shadow: 3px 3px 10px black;
+  
+  
+
+}
+.Total-sales h4 {
+  color: white;
+
+}
+.Total-sales h5 {
+  color: white;
+}
+.sales{
+  margin-left:22px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  
+  
+
+}
+.medicine-List{
+
+    height: 100%;
+    width: 200px;
+    background-color: #111;
+    margin-left: 67%;
+    position: absolute;
+    color: white;
+    margin-bottom: 10px;
+    
+    
+}
+.add-Medicine{
+  position: relative;
+ 
+}
+.main-system{
+  display: flex;
+  flex-direction: row;
+
+}
+.top-medicine-sale{
+  height: 100%;
+  width: 200px;
+  background-color: #111;
+  margin-left: 52%;
+  position: absolute;
+  color: white;
+  margin-bottom: 10px;
+
+}
+.top-medicine-sale ul {
+  color: white;
+}
+.Total-vist{
+  height: 100px;
+  width: 215px;
+  background-color: hsla(0, 0%, 7%, 0.849);
+  display: flex;
+  text-align: center;
+  flex-direction: column;
+  margin-left: 5px;
+  border: 1px solid black;
+  border-radius: 22px;
+  box-shadow: 3px 3px 10px black;
+}
+.add-Medicine-form{
+  height: 270px;
+  width: 300px;
+  background-color: hsla(0, 0%, 7%, 0.678);
+  border-radius: 5px;
+  
+  margin-left: 30%;
+}
+#medicineForm{
+  margin-right: 50%;
+}
+#medicineForm input {
+  width: 150px;
+}
+#medicineForm button {
+  width: 100px;
+  height: 25px;
+  border: none;
+  cursor: pointer;
+  margin-left: 96px;
+  background-color: green;
+  color:white ;
+}

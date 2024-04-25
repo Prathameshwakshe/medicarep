@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Signup Page</title>
+    <link rel="stylesheet" href="css/Signup.css">
+</head>
+<body>
+    <div class="nav" >
+        <div class="img-logo"><img class='logo-img' src= "Img/logo.png" alt="logo" /></div>
+        <div class="nav-link">
+        <a href='Main-page.html' class = "link">Home</a>
+        <a class = "link">Login</a>
+        <a href="Signup.html" class= "link">Sign Up</a>
+        </div>
+     </div>
+    <div class="signup-container">
+        <h2>Sign Up</h2>
+        <form id="signup-form">
+            <input type="text" id="username" placeholder="Username" required>
+            <input type="email" id="email" placeholder="Email" required>
+            <input type="password" id="password" placeholder="Password" required>
+            <button onclick= "Signup()" type="submit">Sign Up</button>
+            <script>function Signup() {
+                        
+                window.location.href = 'main-System.html';
+                }</script>
+        </form>
+    </div>
+    <script src="server.js"></script>
+</body>
+</html>
